@@ -73,7 +73,7 @@ function Work() {
     {/* Top Div */}
     <div className="topDiv relative w-full lg:w-[45%] h-[40vh] lg:h-[60vh] flex flex-col items-center justify-center">
       <h1 className="text-3xl lg:text-5xl text-white text-center mb-4">
-        <span className="bg-gradient-to-r from-blue-500 via-white to-green-300 bg-clip-text text-transparent">
+        <span className="">
           Creative Frontends
         </span>
       </h1>
@@ -91,24 +91,42 @@ function Work() {
           >
             ExoApe-Clone
           </a>
+
+           <a
+            className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent"
+            href="https://b15-final-main.vercel.app/"
+          >
+            Infos | Connects the brands
+          </a>
+
+           <a
+            className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent"
+            href="https://vine-shop-main-project.vercel.app/"
+          >
+            Lagunitas Home page
+          </a> 
+
+          <a
+            className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent"
+            href="https://atomic-health-main-project.vercel.app/"
+          >
+            Atomic Health
+          </a>
+
           <a
             className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent "
             href="https://bhushanbitwise.github.io/bhushan.agency/"
           >
             Obys-Agency-Clone
           </a>
-          <a
-            className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent"
-            href="https://refokus-website-clone-mocha.vercel.app/"
-          >
-            Refokus-Work-Clone
-          </a>
+
           <a
             className="font-[helvetica] hover:text-blue-400 hover:underline text-lg lg:text-2xl mt-2 bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent"
             href="https://project-plant-omega.vercel.app/"
           >
             SheryJs-Animation
           </a>
+
         </motion.div>
         <div className="w-[25vw] h-[25vh] lg:w-[17vw] lg:h-[50vh] rounded-md">
           <img
@@ -123,7 +141,7 @@ function Work() {
     {/* Bottom Div */}
     <div className="bottomDiv relative w-full lg:w-[45%] h-[40vh] lg:h-[60vh] flex flex-col items-center justify-center">
       <h1 className="text-3xl lg:text-5xl text-white text-center mb-4">
-        <span className="bg-gradient-to-r from-blue-500 via-white to-blue-700 bg-clip-text text-transparent">
+        <span className="">
           Full Stack Project
         </span>
       </h1>
