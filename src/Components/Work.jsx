@@ -1,8 +1,9 @@
 
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import mivi3 from "../assets/Images/mivi3.png";
+// import mivi3 from "../assets/Images/mivi3.png";
 import nn from "../assets/Images/nn.jpg";
+import frontend from "../assets/Images/frontend.mp4";
 import { motion } from "motion/react";
 
 
@@ -129,11 +130,11 @@ function Work() {
 
         </motion.div>
         <div className="w-[25vw] h-[25vh] lg:w-[17vw] lg:h-[50vh] rounded-md">
-          <img
-            className="w-full h-full object-cover rounded-md"
+          {/* <img className="w-full h-full object-cover rounded-md"
             src={mivi3}
             alt=""
-          />
+          /> */}
+          <video className="w-full h-full object-cover rounded-md" autoPlay muted loop src={frontend}></video>
         </div>
       </div>
     </div>
@@ -149,11 +150,11 @@ function Work() {
       <div className="flex items-center gap-5">
         <div 
        className="w-[25vw] h-[25vh] lg:w-[17vw] lg:h-[50vh] rounded-md">
-          <img
-            className="w-full h-full object-cover rounded-md"
+          <img className="w-full h-full object-cover rounded-md"
             src={nn}
             alt=""
           />
+          {/* <video className="w-full h-full object-cover rounded-md" autoPlay muted loop src={backend}></video> */}
         </div>
         <motion.div
           initial={{ y: "100%", opacity: 0 }}

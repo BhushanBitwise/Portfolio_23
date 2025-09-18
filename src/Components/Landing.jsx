@@ -90,7 +90,7 @@ function Landing({ finish }) {
     visible: { opacity: 1, y: 0 },
   };
   return (
-    <div className="pare h-[130vh] w-full ">
+    <div className="pare h-[100vh] w-full ">
       <div className="landingcontainer h-full relative w-full ">
         <div className="bgimage h-full w-full">
           <img
