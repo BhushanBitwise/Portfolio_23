@@ -14,7 +14,7 @@ function App() {
   const [loaderfinish, setLoaderfinish] = useState(false);
 
   return (
-    <main className="relative ">
+    <main className="relative select-none">
       <CustomCursor />
       <Loader func={setLoaderfinish} />
       <Navbar />

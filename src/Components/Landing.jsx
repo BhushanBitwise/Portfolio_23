@@ -90,7 +90,7 @@ function Landing({ finish }) {
     visible: { opacity: 1, y: 0 },
   };
   return (
-    <div className="pare h-[100vh] w-full ">
+    <div className="pare h-[100vh] w-full select-none">
       <div className="landingcontainer h-full relative w-full ">
         <div className="bgimage h-full w-full">
           <img
@@ -102,7 +102,7 @@ function Landing({ finish }) {
         <div className="availability absolute left-[50%] translate-x-[-50%] top-[16%] md:top-[12%] lg:top-[13%] ">
           <div className="available gap-4 md:gap-6 bg-white rounded-full items-center px-4 md:px-6 py-3 flex">
             <div className="dot h-2 w-2 "></div>
-            <h1 className="text-md md:text-lg font-[satoshiregular] ">
+            <h1 className="text-md md:text-lg font-[satoshiregular] select-none">
               Available for work
             </h1>
           </div>
