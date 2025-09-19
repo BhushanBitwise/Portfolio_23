@@ -7,7 +7,8 @@ import Contact from "./Components/Contact";
 import LocomotiveScroll from "locomotive-scroll";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import CustomCursor from "./components/CustomCursor";
+// import CustomCursor from "./components/CustomCursor";
+import CustomCursor from "./Components/CustomCursor";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
